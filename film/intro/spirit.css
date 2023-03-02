@@ -1,0 +1,210 @@
+body{
+    background-color: white;
+}
+
+
+#noname{
+    margin: -10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    background-color:rgb(104, 95, 45);
+    height: 70px;
+    overflow: hidden;
+}
+
+
+.item{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 20px 15px 20px;
+    font-weight: 100;
+    color: white;
+    /* khoidong */
+    animation-name: start1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /* hover */
+    transition: background-color 700ms;
+}
+
+@keyframes start1{
+    0%{
+        opacity: 1%;
+        margin-left: 10px;
+            
+    }
+    50%{
+        opacity: 1%;
+        margin-left: -30px;
+            
+    }
+    100%{
+        margin-left: 0px;
+        opacity: 100%;
+    }
+}
+.header li:hover{
+    border: green;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#img2{
+    position:relative;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    animation-name: start2;
+    animation-duration: 2500ms;
+    animation-timing-function: ease-in;
+}
+@keyframes start2{
+    0%{
+        opacity: 0%;
+        filter: blur(5px);
+    }
+    55%{
+        filter: blur(15px);
+        opacity: 0%;
+        
+    }
+    100%{
+        filter: blur(0px);
+        opacity: 80%;
+        
+    }
+}
+.contain-logo{
+    position:absolute;
+    top: 20px;
+    right: 0px;
+    width: 300px;
+    height: 160px;
+    overflow: hidden;
+
+}
+
+#youtube{
+    display: none;
+    position:fixed;
+    top: 5%;
+    left: 10%;
+    height: 500px;
+    width: 1000px;
+}
+#youtube:target{
+    display: block;
+}
+#closee{
+    position: relative;
+    top:98%;
+    left: 92%;
+    height: 15px;
+    width: 40px;
+}
+#closee:hover{
+    font-size: larger;
+}
+
+#logo{
+    position:absolute;
+    right: 0px;
+    height: 150px;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 100ms;
+
+}
+
+@keyframes logo{
+    0%{
+        right: -480px;
+    }
+    100%{
+        right:  0px;
+    }
+}
+
+
+
+
+
+#nhieutenqua{
+    position: relative;
+    margin-top: -80px;
+    width: 100%;
+    max-height: 300px;
+    display: flex;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#title-img{
+    background-color:  rgb(104, 95, 45);;
+    padding: 20px 20px 20px 20px;
+}
+#title{
+    margin-top: 16px;
+    height: 30px;
+    width: 300px;
+}
+
+.contain_travel{
+    margin-top: 30px;
+    margin-right: 50px;
+    max-width: 200px;
+    max-height: 70px;
+    overflow: hidden;
+    background-color:  rgb(50, 45, 18);
+}
+
+#travel{
+
+    display: block;
+    font-size: 25px;    
+    background-color: none;
+    color: white;
+    padding: 20px 10px 20px 10px ;
+    margin: auto ;
+
+}
+#travel a{
+    text-decoration: none;
+}
+
+/* phan cuoi */
+
+.kobietdattenlagi{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img3{
+    height: 320px;
+    margin-left: 70px;
+}
+
+.listcuoi{
+    margin-left: 30px ;
+    margin-right: 100px;
+    opacity: 60%;
+}
+
+.listcuoi .text1{
+    font-size: 15px;
+    padding-bottom: 10px ;
+    border-bottom: 2px inset black;
+}
+
+.text2{
+    font-size: 30px;
+}

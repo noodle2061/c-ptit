@@ -1,0 +1,51 @@
+body{
+    background-image: url("img/background.png" ) ;
+    background-size: cover;
+    
+}
+
+
+.box{
+    margin-top: 35px;
+    margin-left: 50px ;
+    margin-right: 50px;
+    min-height: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+}
+
+.containimg{
+    width: 220px;
+    height: 300px;
+    max-width: 220px;
+    max-height: 500px;
+    overflow:hidden;
+}
+
+img {
+    width: 86%;
+    height: 86%;
+    margin-top: 7%;
+    margin-left: 7%;
+    flex-wrap: wrap;
+    transition: .3s;
+}
+
+img:hover{
+    width: 95%;
+    height: 95%;
+    padding: 0px;
+    margin-top: 2%;
+    margin-left: 2%;
+    /* box-shadow: 2px 3px 12px rgb(31, 12, 12); */
+}
+
+
+.text{
+    margin-left: 160px;
+    margin-right: 160px;
+    text-align: center;
+}
+

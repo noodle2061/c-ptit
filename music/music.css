@@ -1,0 +1,250 @@
+
+body{
+    background-color: #0e1112;
+}
+#noname{
+    margin: -10px;
+    width: 100%;
+    height: 820px;
+    overflow: hidden;
+}
+
+.header{
+    /* position: absolute; */
+    width: 100%;
+    background-color:rgb(104, 95, 45);
+    height: 70px;
+    overflow: hidden;
+}
+
+
+.item{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 20px 15px 20px;
+    font-weight: 100;
+    color: white;
+    /* khoidong */
+    animation-name: start1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /* hover */
+    transition: background-color 700ms;
+}
+
+@keyframes start1{
+    0%{
+        opacity: 1%;
+        margin-left: 10px;
+            
+    }
+    50%{
+        opacity: 1%;
+        margin-left: -30px;
+            
+    }
+    100%{
+        margin-left: 0px;
+        opacity: 100%;
+    }
+}
+.header li:hover{
+    border: green;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.contain-logo{
+    position:absolute;
+    top: 20px;
+    right: 0px;
+    width: 300px;
+    height: 160px;
+    overflow: hidden;
+
+}
+#logo{
+    position:absolute;
+    right: 0px;
+    height: 150px;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 100ms;
+
+}
+
+@keyframes logo{
+    0%{
+        right: -480px;
+    }
+    100%{
+        right:  0px;
+    }
+}
+
+#boxx{
+    position:absolute;
+    left: -10px;
+    top: 12%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0e1112;
+}
+.contain{
+    margin-top: 10px;
+    height: 16%;
+    width: 100%;
+    background-color: #2b2c2c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom : 1px solid gray;
+}
+.ten{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.stt{
+    color: white;
+    padding: 10px;
+    font-weight:12%;
+}
+.anh{
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 70px !important;
+    height: 70px !important;
+}
+.song{
+    color: white;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.time{
+    /* background-color: red; */
+    margin-left: 20%;
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    white-space: nowrap;
+    
+}
+.album{
+    margin-top: 15px;
+    color: white;   
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+.tgian{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: white;
+}
+
+#mot{
+    position: absolute;
+    top: 100px;
+    left: 85%;
+}
+
+#hai{
+    position: absolute;
+    top: 200px;
+    left: 85%;
+}
+#ba{
+    position: absolute;
+    top: 305px;
+    left: 85%;
+}
+#bon{
+    position: absolute;
+    top: 410px;
+    left: 85%;
+}
+#nam{
+    position: absolute;
+    top: 515px;
+    left: 85%;
+}
+#sau{
+    position: absolute;
+    top: 620px;
+    left: 85%;
+}
+#bay{
+    position: absolute;
+    top: 725px;
+    left: 85%;
+}
+#tam{
+    position: absolute;
+    top: 830px;
+    left: 85%;
+}
+#chin{
+    position: absolute;
+    top: 935px;
+    left: 85%;
+}
+#muoi{
+    position: absolute;
+    top: 1040px;
+    left: 85%;
+}
+#one{
+    position: absolute;
+    top: 1149px;
+    left: 85%;
+}
+#two{
+    position: absolute;
+    top: 1255px;
+    left: 85%;
+}
+#three{
+    position: absolute;
+    top: 1360px;
+    left: 85%;
+}
+#four{
+    position: absolute;
+    top: 1468px;
+    left: 85%;
+}
+#five{
+    position: absolute;
+    top: 1570px;
+    left: 85%;
+}
+#six{
+    position: absolute;
+    top: 1678px;
+    left: 85%;
+}
+#seven{
+    position: absolute;
+    top: 1783px;
+    left: 85%;
+}
+#eight{
+    position: absolute;
+    top: 1888px;
+    left: 85%;
+}
+#nine{
+    position: absolute;
+    top: 1995px;
+    left: 85%;
+}
+#ten{
+    position: absolute;
+    top: 2105px;
+    left: 85%;
+}
